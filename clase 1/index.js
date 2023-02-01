@@ -49,5 +49,29 @@ let nombre = "mariano";
 console.log(typeof(edad));
 console.log(typeof(nombre)); */
 
-let variable = parseInt(prompt("ingrese su nombre"));
-alert(typeof(variable));
+/* let variable = parseInt(prompt("ingrese su nombre"));
+alert(typeof(variable)); */
+
+let nombre = prompt("escribe tu nombre");
+let apellido = prompt("escribe tu apellido")
+alert("Hola " + nombre + " " + apellido + " bienvenido");
+
+let numero1 = parseInt(prompt("escoje el numero 1 " + nombre + " " + apellido));
+let numero2 = parseInt(prompt("escoje el numero 2 " + nombre + " " + apellido));
+
+let resultadoSuma = numero1 + numero2;
+alert("este es el resultado de la suma " + resultadoSuma);
+
+
+let resultadoResta = numero1 - numero2;
+alert("este es el resultado de la resta " + resultadoResta);
+
+let resultadoMultiplicacion = numero1 * numero2;
+alert("este es el resultado de la multplicacion " + resultadoMultiplicacion);
+
+let resultadoDivision = numero1 / numero2;
+alert("este es el resultado de la division " + resultadoDivision);
+
+alert("esto fue todo por el momento, hasta luego " + nombre + " " + apellido)
+
+
