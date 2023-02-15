@@ -161,21 +161,21 @@ Estructura de un objeto
 
 
 
-class Producto{
-    constructor(nombre, precio, imagen, cantidad){
-        this.nombre = nombre;
-        this.precio = precio;
-        this.imagen = imagen;
-        this.cantidad = cantidad;
-    }
+// class Producto{
+//     constructor(nombre, precio, imagen, cantidad){
+//         this.nombre = nombre;
+//         this.precio = precio;
+//         this.imagen = imagen;
+//         this.cantidad = cantidad;
+//     }
 
-    vender(cantidad){
-        this.cantidad -= cantidad;  // this.cantidad = this.cantidad - cantidad;   es lo mismo
-    }
-}
+//     vender(cantidad){
+//         this.cantidad -= cantidad;  // this.cantidad = this.cantidad - cantidad;   es lo mismo
+//     }
+// }
 
-const producto1 = new Producto("camisa", 3423, "asdasda", 5);
-console.log(producto1);
-producto1.vender(2);
-console.log(producto1);
+// const producto1 = new Producto("camisa", 3423, "asdasda", 5);
+// console.log(producto1);
+// producto1.vender(2);
+// console.log(producto1);
 
