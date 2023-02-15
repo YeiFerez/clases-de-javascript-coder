@@ -178,3 +178,4 @@ const producto1 = new Producto("camisa", 3423, "asdasda", 5);
 console.log(producto1);
 producto1.vender(2);
 console.log(producto1);
+
