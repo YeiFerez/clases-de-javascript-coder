@@ -114,7 +114,7 @@ formulario.addEventListener("submit", (e) => {
    let edad = inputs[1].value;
    let usuario = {
       id: usuarios.length + 1,
-      nombre,
+      nombre, 
       edad,
    };
 
@@ -145,4 +145,4 @@ boton.addEventListener("click", () => {
 let boton2 = document.getElementById("borrar");
 boton2.addEventListener("click", () => {
    localStorage.clear();
-})
+});
